@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@import 'uniwind';
+
+/* MoonList theme: Soft Rose + Cream */
+@theme {
+  --color-moon-cream: #fff7f5;
+  --color-moon-rose: #f43f5e;
+  --color-moon-rose-dark: #be123c;
+  --color-moon-blush: #ffe4e6;
+  --color-moon-petal: #fecdd3;
+  --color-moon-plum: #4c1d3d;
+  --color-moon-mauve: #9d6b85;
+}

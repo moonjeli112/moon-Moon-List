@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "MoonList",
+    "slug": "moonlist",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moon.moonlist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#fff7f5",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.moon.moonlist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "moonlist",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
